@@ -814,7 +814,7 @@ margin-right: 20px; /* Add spacing between logo and links */
         .team img {
             width: 160px;
             height: auto;
-            border-radius: 50%;
+            border-radius: 2%;
             border: 2px ridge black;
             transition: all 0.3s ease;
             box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
