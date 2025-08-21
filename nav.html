@@ -1,0 +1,92 @@
+<style>
+    nav {
+        display: flex;
+        background-color: #141414;
+        padding: 4px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        align-items: center;
+        justify-content: center;
+    }
+    nav a {
+        color: #d8d8d8;
+        text-decoration: none;
+        padding: 30px 20px;
+        font-size: 20px;
+        transition: all 0.3s ease;
+        height: 50%;
+    }
+
+    nav img {
+        width: 70px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    nav a:hover {
+        background-color: #555;
+    }
+    
+    .dropdown {
+        position: relative;
+        font-family: 'Roboto', sans-serif;
+        color: #d8d8d8;
+        text-decoration: none;
+        font-size: 20px;
+        transition: all 0.3s ease;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        background-color: #141414;
+        border-radius: 8px;
+        min-width: 180px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+        opacity: 0;
+        transform: translateY(100px);
+        transition: all 0.3s ease;
+    }
+
+    .dropdown-content a {
+        display: block;
+        padding: 12px 15px;
+        color: #d8d8d8;
+        font-size: 15px;
+        border-radius: 0;
+        transition: background 0.3s ease;
+    }
+
+    .dropdown-content a:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+        opacity: 1;
+        transform: translateY(0);
+    }
+</style>
+
+<nav>
+    <img src="./images/ishl.png" alt="Logo">
+    <b class="swipe-text" style="color: white; font-size: 20px;"><i>ISHL</i></b>
+    <a href="index.html">Home</a>
+    <a href="./pages/about.html">About</a>
+    <a href="./pages/schedule.html">Schedule</a>
+    <a href="./pages/rules.html">Rulebook</a>
+    <a href="./pages/statistics.html">Stats</a>
+    <a href="./draft_tool.html">Drafting</a>
+    <div class="dropdown">
+        <a href="#teams">Teams ▼</a>
+        <div class="dropdown-content">
+            <a href="./pages/assassins.html">Algonquin Assassins</a>
+            <a href="./pages/charge.html">Chicago Charge</a>
+            <a href="./pages/demons.html">Dundee Demons</a>
+            <a href="./pages/turtles.html">Toxic Turtles</a>
+        </div>
+    </div>
+</nav>

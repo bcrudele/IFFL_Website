@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Impact&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="../../css/script.js"></script>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../css/badge.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon-16x16.png">
+    <link rel="manifest" href="../../css/site.webmanifest">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../images/android-chrome-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon.png">
+    <title>Colin Young</title>
+</head>
+<body onload="initializeView(); lastedit()">
+    <main>
+        <div style="width: 1040px;">
+            <div id="nav-placeholder"></div>
+            <script src="../../navLoader.js"></script>
+        </div>
+        <div class="home">
+            <section class="section">
+                <div class="player-container-list">
+                    <div class="team">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <div style="flex: 1; text-align: left;">
+                                <img src="../../images/squid.jpg" alt="Team Logo" style="width: 300px; height: auto; border-radius: 5%;">
+                            </div>
+                            <div style="flex: 2; text-align: center;">
+                                <h2 class="swipe-text-charge">Colin Young</h2>
+                                <p style="font-size: 1.2em; margin-top: 10px;">
+                                    <strong>Position:</strong> Forward<br>
+                                    <strong>Team:</strong> Toxic Turtles<br>
+                                    <strong>Career Record:</strong> 0-0-0<br>
+                                    <strong>Experience:</strong> 3 Seasons<br>
+                                    <strong>Hometown:</strong> Algonquin, IL<br>
+                                    <strong>Playing Style:</strong> Sniper<br>
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="button-container-list">
+                            <button class="title-button">
+                                <span>Year</span>
+                                <span>Games Played</span>
+                                <span>Goals</span>
+                                <span>Assists</span>
+                                <span>Points</span>
+                                <span>PPG</span>
+                            </button>
+                                            <button class="button-list-player">
+                  <span>2025</span>
+                  <span>
+                    <td id="ColinY_2025_skater_GP">8</td>
+                  </span>
+                  <span>
+                    <td id="ColinY_2025_skater_G">28</td>
+                  </span>
+                  <span>
+                    <td id="ColinY_2025_skater_A">14</td>
+                  </span>
+                  <span>
+                    <td id="ColinY_2025_skater_P">42</td>
+                  </span>
+                  <span>
+                    <td id="ColinY_2025_skater_PPG">5.25</td>
+                  </span>
+                </button>
+                <button class="button-list-player">
+                  <span>2024</span>
+                  <span>
+                    <td id="ColinY_2024_skater_GP">11</td>
+                  </span>
+                  <span>
+                    <td id="ColinY_2024_skater_G">51</td>
+                  </span>
+                  <span>
+                    <td id="ColinY_2024_skater_A">14</td>
+                  </span>
+                  <span>
+                    <td id="ColinY_2024_skater_P">65</td>
+                  </span>
+                  <span>
+                    <td id="ColinY_2024_skater_PPG">5.91</td>
+                  </span>
+                </button>
+                <button class="button-list-player" style="background-color: rgba(197, 197, 197, 0.25);">
+                  <span>Total</span>
+                  <span>
+                    <td id="ColinY_career_skater_GP">19</td>
+                  </span>
+                  <span>
+                    <td id="ColinY_career_skater_G">79</td>
+                  </span>
+                  <span>
+                    <td id="ColinY_career_skater_A">28</td>
+                  </span>
+                  <span>
+                    <td id="ColinY_career_skater_P">107</td>
+                  </span>
+                  <span>
+                    <td id="ColinY_career_skater_PPG">5.63</td>
+                  </span>
+
+                </button>
+                        </div>
+                    </div>
+                </div>
+ 
+                <br>
+                <body
+        style="font-family: Arial, sans-serif; background-color: #f4f6f8; padding: 40px; max-width: 900px; margin: auto; color: black;">
+        <div id="tile-container"
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 20px;">
+
+            <!-- CAREER TILE -->
+            <div id="career-tile"
+            style="background: white; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+            <h3 style="margin-top: 0; color: #e53935;">📈 Career</h3>
+            
+    <div style="margin-bottom: 20px;">
+    <h4 style="margin: 0;">🎯 Career Scorer</h4>
+    <p style="margin: 4px 0; color: #555;">100 career goals (<td id="ColinY_career_skater_G">79</td>/100)</p>
+    <div style="background: #eee; border-radius: 8px;">
+        <div style="width: 58%; background: linear-gradient(90deg, #ffd700, #f9a602); height: 16px; border-radius: 8px;"></div>
+    </div>
+    </div>
+    
+            
+    <div style="margin-bottom: 20px;">
+    <h4 style="margin: 0;">🧠 The Playmaker</h4>
+    <p style="margin: 4px 0; color: #555;">30 career assists (<td id="ColinY_career_skater_A">28</td>/30)</p>
+    <div style="background: #eee; border-radius: 8px;">
+        <div style="width: 87%; background: linear-gradient(90deg, #c0c0c0, #dcdcdc); height: 16px; border-radius: 8px;"></div>
+    </div>
+    </div>
+    
+            
+    <div>
+    <h4 style="margin: 0;">🎩 Hat Trick Hero</h4>
+    <p style="margin: 4px 0; color: #555;">20 career hat tricks (<td id="ColinY_career_skater_HT">13</td>/20)</p>
+    <div style="background: #eee; border-radius: 8px;">
+        <div style="width: 30%; background: linear-gradient(90deg, #ffd700, #f9a602); height: 16px; border-radius: 8px;"></div>
+    </div>
+    </div>
+    
+            <br>
+            <button onclick="toggleTiles()"
+                style="padding: 10px 20px; font-size: 16px; border-radius: 8px; background-color: #cfcfcf; color: rgb(0, 0, 0); border: none; cursor: pointer;">
+                Goalie Mode
+            </button>
+            </div>
+
+            <!-- SEASON TILE -->
+            <div id="season-tile"
+            style="background: white; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+            <h3 style="margin-top: 0; color: #8e24aa;">🚀 Season</h3>
+            
+<div style="margin-bottom: 20px;">
+  <h4 style="margin: 0;">⚔️ 2025 Duelist</h4>
+  <p style="margin: 4px 0; color: #555;">Win 3 rival matchups (<td id="ColinY_2025_achievements_2025_DUELIST">2</td>/3)</p>
+  <div style="background: #eee; border-radius: 8px;">
+    <div style="width: 50%; background: linear-gradient(90deg, #c0c0c0, #dcdcdc); height: 16px; border-radius: 8px;"></div>
+  </div>
+</div>
+
+            
+<div style="margin-bottom: 20px;">
+  <h4 style="margin: 0;">🍎 2025 Big Apples</h4>
+  <p style="margin: 4px 0; color: #555;">Hit 20 assists (<td id="ColinY_2025_achievements_2025_BIGAPPLES">14</td>/20)</p>
+  <div style="background: #eee; border-radius: 8px;">
+    <div style="width: 40%; background: linear-gradient(90deg, #c0c0c0, #dcdcdc); height: 16px; border-radius: 8px;"></div>
+  </div>
+</div>
+
+            
+<div style="margin-bottom: 20px;">
+  <h4 style="margin: 0;">🔥 2025 Hot Hand</h4>
+  <p style="margin: 4px 0; color: #555;">Points in 3 consecutive games (<td id="ColinY_2025_achievements_2025_HOTHAND">2</td>/3)</p>
+  <div style="background: #eee; border-radius: 8px;">
+    <div style="width: 67%; background: linear-gradient(90deg, #cd7f32, #b87333);; height: 16px; border-radius: 8px;"></div>
+  </div>
+</div>
+
+            </div>
+
+            <!-- GOALIE TILE -->
+            <div id="goalie-tile"
+            style="background: white; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+            <h3 style="margin-top: 0; color: #1565c0;">🧤 Career</h3>
+            
+<div style="margin-bottom: 20px;">
+  <h4 style="margin: 0;">🧱 Brick by Brick</h4>
+  <p style="margin: 4px 0; color: #555;">Make 30+ saves in a single game (<td id="ColinY_career_achievements_BRICKBYBRICK">0</td>/5)</p>
+  <div style="background: #eee; border-radius: 8px;">
+    <div style="width: 1%; background: linear-gradient(90deg, #cd7f32, #b87333);; height: 16px; border-radius: 8px;"></div>
+  </div>
+</div>
+
+            
+<div style="margin-bottom: 20px;">
+  <h4 style="margin: 0;">⛑️ Under Siege</h4>
+  <p style="margin: 4px 0; color: #555;">Face 250 shots (<td id="ColinY_career_goalie_SA">0</td>/250)</p>
+  <div style="background: #eee; border-radius: 8px;">
+    <div style="width: 1%; background: linear-gradient(90deg, #cd7f32, #b87333);; height: 16px; border-radius: 8px;"></div>
+  </div>
+</div>
+
+            
+<div style="margin-bottom: 20px;">
+  <h4 style="margin: 0;">🛡️ Wall of Steel</h4>
+  <p style="margin: 4px 0; color: #555;">Hold an opponent to 3 goals or fewer (<td id="ColinY_career_achievements_WALLOFSTEEL">0</td>/1)</p>
+  <div style="background: #eee; border-radius: 8px;">
+    <div style="width: 1%; background: linear-gradient(90deg, #cd7f32, #b87333);; height: 16px; border-radius: 8px;"></div>
+  </div>
+</div>
+
+            <button onclick="toggleTiles()"
+                style="padding: 10px 20px; font-size: 16px; border-radius: 8px; background-color: #cfcfcf; color: rgb(0, 0, 0); border: none; cursor: pointer;">
+                Skater Mode
+            </button>
+            </div>
+
+            <!-- TRAINING TILE -->
+            <div id="training-tile"
+            style="background: white; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+            <h3 style="margin-top: 0; color: #8e24aa;">🚀 Season</h3>
+            
+<div style="margin-bottom: 20px;">
+  <h4 style="margin: 0;">⚔️ 2025 Duelist</h4>
+  <p style="margin: 4px 0; color: #555;">Win 3 rival matchups (<td id="ColinY_2025_achievements_2025_DUELIST">2</td>/3)</p>
+  <div style="background: #eee; border-radius: 8px;">
+    <div style="width: 50%; background: linear-gradient(90deg, #c0c0c0, #dcdcdc); height: 16px; border-radius: 8px;"></div>
+  </div>
+</div>
+
+            
+<div style="margin-bottom: 20px;">
+  <h4 style="margin: 0;">🏰 2025 Fortress</h4>
+  <p style="margin: 4px 0; color: #555;">0.800+ SV% in 3 games (<td id="ColinY_2025_achievements_2025_FORTRESS">0</td>/3)</p>
+  <div style="background: #eee; border-radius: 8px;">
+    <div style="width: 1%; background: linear-gradient(90deg, #cd7f32, #b87333);; height: 16px; border-radius: 8px;"></div>
+  </div>
+</div>
+
+            
+<div style="margin-bottom: 20px;">
+  <h4 style="margin: 0;">🌊 2025 Save Surge</h4>
+  <p style="margin: 4px 0; color: #555;">Make 150 saves (<td id="ColinY_2025_achievements_2025_SAVESURGE">0</td>/150)</p>
+  <div style="background: #eee; border-radius: 8px;">
+    <div style="width: 1%; background: linear-gradient(90deg, #cd7f32, #b87333);; height: 16px; border-radius: 8px;"></div>
+  </div>
+</div>
+
+            </div>
+
+        </div>
+        </body>
+        
+                  <br>
+                  <!-- TROPHY CASE MEDAL DISPLAY -->
+<div style="background: white; padding: 20px; margin-bottom: 40px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    <h3 style="margin-top: 0; color: #f57c00;">🏅 Trophy Case – Earned Medals</h3>
+  
+    <div style="display: flex; flex-wrap: wrap; gap: 12px;">
+
+    <div class="badge silver" data-tooltip="Score 50 career goals">
+                  🎯 Career Scorer
+              </div>
+
+    <div class="badge bronze" data-tooltip="Reach 15 career assists">
+                  🧠 The Playmaker
+                </div>
+
+    <div class="badge silver" data-tooltip="Earn 9 career hat tricks">
+                  🎩 Hat Trick Hero
+                </div>
+    <!-- <div class="badge bronze" data-tooltip="Hold an opponent to 3 goals or fewer">
+                  🛡️ Wall of Steel
+                </div> -->
+
+    <!-- <div class="badge bronze" data-tooltip="Make 30+ saves in a single game 5 times">
+                  🧱 Brick by Brick
+                </div> -->
+
+    <!-- <div class="badge bronze" data-tooltip="Face 250 shots">
+                  ⛑️ Under Siege
+                </div> -->
+
+    <div class="badge special" data-tooltip="Score a game winning goal in overtime">
+                  ⭐ End the Night
+                </div>
+
+    <div class="badge special" data-tooltip="Score 6+ goals in a single game">
+                  🤠 Six Shooter
+                </div>
+
+    <div class="badge special" data-tooltip="Score 10+ points in a single game">
+                  ☠️ Overkill
+                </div>
+
+    <div class="badge special" data-tooltip="Record 3+ goals and 3+ assists in a single game">
+                  🎭 Dual Threat
+                </div>
+
+
+    <!-- <div class="badge special" data-tooltip="Win a shootout">
+                  🚫 Shootout Shutout
+                </div> -->
+
+    <!-- <div class="badge special" data-tooltip="Record a goalie assist">
+                  📡 Signal Caller 
+                </div> -->
+
+    <!-- <div class="badge special" data-tooltip="Win a game you face 40+ shots">
+                  ☣️ Doomsday
+                </div> -->
+
+    <!-- <div class="badge special" data-tooltip="Record a 0.950+ save percentage in a game">
+                  ⚓️ The Anchor
+                </div> -->
+
+    <!-- <div class="badge special" data-tooltip="Win a game with over 2× your opponent’s saves">
+                  🌠 Outshined
+                </div> -->
+
+    <!-- <div class="badge bronze" data-tooltip="Win 1 rival matchups">
+                  ⚔️ 2025 Duelist
+                </div> -->
+
+    <!-- <div class="badge bronze" data-tooltip="Hit 10 assists">
+                  🍎 2025 Big Apples
+                </div> -->
+
+    <!-- <div class="badge bronze" data-tooltip="Points in 5 consecutive games">
+                  🔥 2025 Hot Hand
+                </div> -->
+
+    <!-- <div class="badge bronze" data-tooltip="0.800+ SV% in 3 games">
+                  🏰 2025 Fortress
+                </div> -->
+
+    <!-- <div class="badge bronze" data-tooltip="Make 150 saves">
+                  🌊 2025 Save Surge
+                </div> -->
+
+    <!-- <div class="badge bronze" data-tooltip="Reach semi-finals in the 2024 tournament">
+                  🥉 2024 Semi-Finalist
+                </div> -->
+    
+                          <div class="badge silver" data-tooltip="Reach semi-finals in the 2024 tournament">
+                    🥈 2024 Finalist
+                  </div>
+
+    <!-- <div class="badge gold" data-tooltip="2024 Rookie of the Year">
+      🐣 2024 ROTY
+    </div> -->
+
+    <!-- <div class="badge gold" data-tooltip="2024 Defenseman of the Year">
+      🛡️ 2024 DOTY
+    </div> -->
+
+    <!-- <div class="badge gold" data-tooltip="2024 Most Improved Player">
+      💪 2024 MIP
+    </div> -->
+
+    <div class="badge gold" data-tooltip="2024 Most Valuable Player">
+      ⚜️ 2024 MVP
+    </div>
+
+    <!-- <div class="badge gold" data-tooltip="Champion of the 2024 tournament">
+              🥇 2024 Champion
+            </div> -->
+
+    <!-- <div class="badge gold" data-tooltip="2024 Goalie of the Year">
+      🥅 2024 GOTY
+    </div> -->
+    </div>
+  </div>
+  
+                  
+  
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <a href="../../index.html">
+            <div class="logo">
+                <img src="../../images/ishl.png" alt="Logo">
+            </div>
+        </a>
+
+        <div class="links">
+            <a href="https://www.instagram.com/ishlhockey/">Instagram</a>
+            <a href="https://www.youtube.com/channel/UCb5kpoSNhf9CA7lXG5PmeEA">Youtube</a>
+            <a href="#top">Top</a>
+        </div>
+        <div class="last-updated">
+            Last updated on: <span id="last-updated-date"></span>
+        </div>
+    </footer>
+</body>
+</html>

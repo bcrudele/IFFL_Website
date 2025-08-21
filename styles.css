@@ -1,0 +1,1453 @@
+/* News */
+
+.news-info {
+    color: black;
+    text-align: center;             
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    align-items: center;
+}
+
+/* Dundee */
+.player-exp-dun{
+    color: black;
+    align-items: left;
+    background: linear-gradient(to right, black, black,  rgb(150, 37, 37), black, black);
+    background-size: 500% auto;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: colorSwipe 1s linear;
+    
+}
+.swipe-text-dun {
+    background: linear-gradient(to right, black, black,  rgb(150, 37, 37), black, black);
+    background-size: 500% auto;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: colorSwipe 2s linear infinite;
+    text-align: center; 
+}
+.button-list-dun {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    align-items: center;
+    gap: 10px;
+    border: 0px solid black;
+    }
+    .button-list-dun:hover {
+        background-color:  rgb(150, 37, 37);
+        color: white;
+        /* text-shadow: 1px 1px 0px black; */
+        }
+        .button-dun {
+            background-color: black;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            transition: background-color 0.3s;
+            display: grid;
+            grid-template-columns: auto auto;
+            align-items: center;
+            gap: 10px;
+            }
+    
+            .button-dun:hover {
+            background-color:  rgb(150, 37, 37);
+            color: white;
+            text-shadow: 1px 1px 0px black;
+            }
+            .button-hist-dun {
+                background-color: white;
+                color: black;
+                border: none;
+                border-radius: 4px;
+                padding: 10px 20px;
+                transition: background-color 0.3s;
+                display: grid;
+                grid-template-columns: repeat(5,1fr);
+                align-items: center;
+                gap: 10px;
+                border: 1px solid black;
+                }
+        
+                .button-hist-dun:hover {
+                background-color: rgb(150, 37, 37);
+                color: white;
+                /* text-shadow: 1px 1px 0px black; */
+                }
+
+                .button-hist-dun-logs {
+                    background-color: white;
+                    color: black;
+                    border: none;
+                    border-radius: 4px;
+                    padding: 10px 20px;
+                    transition: background-color 0.3s;
+                    display: grid;
+                    grid-template-columns: repeat(7,1fr);
+                    align-items: center;
+                    gap: 10px;
+                    border: 1px solid black;
+                    }
+            
+                    .button-hist-dun-logs:hover {
+                    background-color: rgb(150, 37, 37);
+                    color: white;
+                    /* text-shadow: 1px 1px 0px black; */
+                    }
+
+ /* Algonquin */
+.player-exp-alg{
+    color: black;
+    align-items: left;
+    background: linear-gradient(to right, black, black, gray, black, black);
+    background-size: 500% auto;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: colorSwipe 1s linear;
+    
+}
+.swipe-text-alg {
+    background: linear-gradient(to right, black, black, gray, black, black);
+    background-size: 500% auto;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: colorSwipe 2s linear infinite;
+    text-align: center; 
+}
+.button-list-alg {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 1px;
+    padding: 10px 0px;
+    transition: background-color 0.3s;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    align-items: center;
+    border: 0px solid black;
+    }
+    .button-list-alg:hover {
+        background-color: gray;
+        color: white;
+        text-shadow: 1px 1px 0px black;
+        }
+        .button-alg {
+            background-color: black;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            transition: background-color 0.3s;
+            display: grid;
+            grid-template-columns: auto auto;
+            align-items: center;
+            gap: 10px;
+            }
+    
+            .button-alg:hover {
+            background-color: gray;
+            color: white;
+            text-shadow: 1px 1px 0px black;
+            }
+            .button-hist-alg {
+                background-color: white;
+                color: black;
+                border: none;
+                border-radius: 4px;
+                padding: 10px 20px;
+                transition: background-color 0.3s;
+                display: grid;
+                grid-template-columns: repeat(5,1fr);
+                align-items: center;
+                gap: 10px;
+                border: 1px solid black;
+                }
+        
+                .button-hist-alg:hover {
+                background-color: gray;
+                color: white;
+                text-shadow: 1px 1px 0px black;
+                }
+
+                .button-hist-alg-logs {
+                    background-color: white;
+                    color: black;
+                    border: none;
+                    border-radius: 4px;
+                    padding: 10px 20px;
+                    transition: background-color 0.3s;
+                    display: grid;
+                    grid-template-columns: repeat(7,1fr);
+                    align-items: center;
+                    gap: 10px;
+                    border: 1px solid black;
+                    }
+            
+                    .button-hist-alg-logs:hover {
+                    background-color: gray;
+                    color: white;
+                    text-shadow: 1px 1px 0px black;
+                    }
+
+/* Charge */
+.swipe-text-charge {
+    background: linear-gradient(to right, black, black, red, black, black);
+    background-size: 500% auto;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: colorSwipe 2s linear infinite;
+    text-align: center; 
+}
+.button-list-charge {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    align-items: center;
+    gap: 10px;
+    border: 0px solid black;
+    }
+    .button-list-charge:hover {
+        background-color: red;
+        color: white
+        }
+        .button-charge {
+            background-color: black;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            transition: background-color 0.3s;
+            display: grid;
+            grid-template-columns: auto auto;
+            align-items: center;
+            gap: 10px;
+            }
+    
+            .button-charge:hover {
+            background-color: red;
+            color: white;
+            border-color: black;
+            }
+            .button-turtles {
+                background-color: black;
+                color: #fff;
+                border: none;
+                border-radius: 4px;
+                padding: 10px 20px;
+                transition: background-color 0.3s;
+                display: grid;
+                grid-template-columns: auto auto;
+                align-items: center;
+                gap: 10px;
+                }
+        
+                .button-turtles:hover {
+                background-color: green;
+                color: black;
+                border-color: black;
+                }
+                .button-hist-charge {
+                    background-color: white;
+                    color: black;
+                    border: none;
+                    border-radius: 4px;
+                    padding: 10px 20px;
+                    transition: background-color 0.3s;
+                    display: grid;
+                    grid-template-columns: repeat(5,1fr);
+                    align-items: center;
+                    gap: 10px;
+                    border: 0px solid black;
+                    }
+            
+                    .button-hist-charge:hover {
+                    background-color: red;
+                    color: white
+                    }
+
+                    .button-hist-charge-logs {
+                        background-color: white;
+                        color: black;
+                        border-radius: 4px;
+                        padding: 10px 20px;
+                        transition: background-color 0.3s;
+                        display: grid;
+                        grid-template-columns: repeat(7,1fr);
+                        align-items: center;
+                        gap: 10px;
+                        }
+                
+                        .button-hist-charge-logs:hover {
+                        background-color: red;
+                        color: white
+                        }
+
+/* Turtles */
+
+    @keyframes pulse {
+        0% { text-shadow: 0 0 5px #d7b15e; }
+        50% { text-shadow: 0 0 10px #d7b15e; }
+        100% { text-shadow: 0 0 5px #d7b15e; }
+    }
+
+    header {
+        background-color: #000;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .record{
+        color: #000;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
+    h1 {
+        color: #000;
+        text-transform: uppercase;
+        font-size: 48px;
+        margin-bottom: 10px;
+        animation: pulse 2s infinite;
+        margin-top: 2px;
+    }
+    p {
+        color: #141414;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+
+    }
+    nav {
+        display: flex;
+        background-color: #141414;
+        padding: 4px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        margin: auto;
+
+
+    }
+    nav a {
+        color: #d8d8d8;
+        text-decoration: none;
+        padding: 30px 20px;
+        font-size: 20px;
+        transition: all 0.3s ease;
+        height: 50%;
+    }
+
+    nav img {
+        width: 70px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    nav a:hover {
+        background-color: #555;
+    }
+
+    main {
+        display: grid;
+        place-items: center;
+    }
+    .section {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 0px;
+        margin-bottom: 20px;
+    }
+
+    .team {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .team img:hover {
+        transform: scale(1.1);
+        /* animation: pulse 1s infinite alternate; Apply the pulse animation on hover */
+    }
+
+    @keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+    .team h3 {
+        color: #000;
+        font-size: 24px;
+        margin-top: 10px;
+        background: linear-gradient(to right, black, black, red, black, black);
+        background-size: 500% auto;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        animation: colorSwipe 1s linear;
+    }
+    .team p {
+        color: #ddd;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 20px;
+    }
+
+    .item img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .item .info {
+        margin-left: 10px;
+    }
+
+
+    .home {
+        background-color: #fff;
+        padding: 25px;
+        margin-bottom: 20px;
+        /* width: 1400px; */
+        width: 100%;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 60% 40%; /* Two columns, each taking up equal space */
+    }
+
+    .left-div {
+      grid-column: 1; /* Place in the first column */
+      position: relative;
+      overflow: hidden; /* Ensure the image doesn't overflow */
+    }
+
+    .left-div img {
+      width: 100%; /* Ensure the image takes up the entire width of the container */
+      height: 100%; /* Ensure the image takes up the entire height of the container */
+      object-fit: cover; /* Ensure the image fills the container while maintaining aspect ratio */
+  }
+
+  .right-div {
+      grid-column: 2; /* Place in the second column */
+    }
+
+    .title {
+      font-size: 36px; /* Set the font size for the title */
+      color: #141414;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    ul {
+        font-size: 14px; /* Set the font size for list items */
+        color:#141414;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 20px;
+      }
+
+      ol {
+        font-size: 14px; /* Set the font size for list items */
+        color:#141414;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 20px;
+      }
+
+    li {
+      margin-bottom: 10px;
+    }
+    
+    /* Color wheel code */
+    @keyframes wheel {
+        0% { color: red; }
+        25% { color: blue; }
+        50% { color: green; }
+        75% { color: orange; }
+        100% { color: red; }
+    }
+
+    .wheel-text {
+        animation: wheel 5s infinite;
+    }
+
+    /* Color Swipe */
+    @keyframes colorSwipe {
+        0% { background-position: 0 0; }
+        100% { background-position: 100% 0; }
+    }
+
+    .swipe-text {
+        font-size: 36px;
+        font-weight: bold;
+        background: linear-gradient(to right, white, white, red, white, white);
+        background-size: 500% auto;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        animation: colorSwipe 1s linear;
+        text-align: center; 
+        margin-left: 10px;  
+        margin-right: 10px;
+    }
+
+    .swipe-text-turtles {
+        background: linear-gradient(to right, black, black, green, black, black);
+        background-size: 500% auto;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        animation: colorSwipe 2s linear infinite;
+        text-align: center; 
+    }
+    .stats-leaders {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr); /* 3 columns with equal width */
+        grid-gap: 10px; /* Gap between grid items */
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
+
+    .team-best {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+        grid-gap: 10px; /* Gap between grid items */
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
+
+    .player-container-list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* 1 columns with equal width */
+        grid-gap: 10px; /* Gap between grid items */
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
+
+
+    .button-hist {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    }
+
+    .title-button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    }
+    .title-button-hist {
+        background-color: black;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 20px;
+        transition: background-color 0.3s;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        align-items: center;
+        gap: 10px;
+        border: 1px solid black;
+        }
+
+        .title-button-logs {
+            background-color: black;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            transition: background-color 0.3s;
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+            align-items: center;
+            gap: 10px;
+            border: 1px solid black;
+            }
+
+            .button-tal-logs {
+                background-color: white;
+                color: black;
+                border: none;
+                border-radius: 4px;
+                padding: 10px 20px;
+                transition: background-color 0.3s;
+                display: grid;
+                grid-template-columns: repeat(7,1fr);
+                align-items: center;
+                gap: 10px;
+                border: 1px solid black;
+                }
+            .button-tal-logs:hover {
+        
+                    background-color: green;
+                    color: white
+        
+            }
+
+            .button-list {
+                background-color: white;
+                color: black;
+                border: none;
+                border-radius: 4px;
+                padding: 10px 20px;
+                transition: background-color 0.3s;
+                display: grid;
+                grid-template-columns: repeat(6,1fr);
+                align-items: center;
+                gap: 10px;
+                border: 0px solid black;
+                }
+    .button-list:hover {
+    background-color: green;
+    color: white
+    }
+
+    .button-hist:hover {
+    background-color: green;
+    color: white
+    }
+    .button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 10px;
+    }
+
+    .button:hover {
+    background-color: red;
+    color: white
+    }
+
+    .left-content {
+    justify-self: start; /* Align left */
+    }
+
+    .right-content {
+    justify-self: end; /* Align right */
+    }
+
+    .player-exp{
+        color: black;
+        align-items: left;
+        background: linear-gradient(to right, black, black, green, black, black);
+        background-size: 500% auto;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        animation: colorSwipe 1s linear;
+        font-family: 'Arial Black', Gadget, sans-serif;
+    }
+
+
+    .player-exp img {
+        width: 100px;
+        height: auto;
+        border-radius: 50%;
+        margin: auto;
+        padding: 3px;
+    }
+
+
+
+.logo img {
+width: 50px; /* Adjust the width of the logo */
+height: auto; /* Maintain aspect ratio */
+border-radius: 50%; /* Make the logo circular */
+margin-right: 20px; /* Add spacing between logo and links */
+}
+
+    .caption {
+        color: black;
+        font-size: 14px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .news_images_caption {
+        color: black;
+        font-size: 12px;
+        padding-top: 10px;
+        text-align: center;
+        width: 400px;
+        margin: auto;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    /* Main */
+
+    @keyframes pulse {
+        0% {
+        text-shadow: 0 0 5px yellow;
+        }
+        50% {
+        text-shadow: 0 0 10px green;
+        }
+        100% {
+        text-shadow: 0 0 5px yellow;
+        }
+        }
+    
+        body {
+            font-family: 'Arial Black', Gadget, sans-serif;
+            margin: 0;
+            padding: 0;
+            /* background-color: #1c1c1c; */
+            background-color: #141414;
+            color: #fff;
+            background-image: url('./images/gray.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        header {
+            background-color: #000;
+            padding: 30px 0;
+            text-align: center;
+        }
+        h1 {
+            color: #000;
+            text-transform: uppercase;
+            font-size: 48px;
+            margin-bottom: 10px;
+            animation: pulse 2s infinite;
+            margin-top: 2px;
+        }
+        .desc{
+            color: black;
+            font-size: 14px;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+        }
+        .champions{
+            color: black;
+            font-size: 14px;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            animation: pulse 2s ease-in-out infinite;
+        }
+    
+        .league {
+            color: #fff;
+            font-size: 36px;
+            text-align: center; 
+            margin-left: 10px;  
+            margin-right: 10px;
+        }
+        main {
+            display: grid;
+            place-items: center;
+        }
+        .section {
+            background-color: #fff;
+            padding: 0px;
+            border-radius: 0px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #000;
+            font-size: 48px;
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: 'Roboto', sans-serif;
+        }
+        .team-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* 3 columns with equal width */
+            grid-gap: 10px; /* Gap between grid items */
+            background-color: #ffffff;
+            border-radius: 10px;
+
+            margin: auto;
+        }
+        .team {
+            margin: 18px;
+            text-align: center;
+        }
+        .team img {
+            width: 160px;
+            height: auto;
+            border-radius: 50%;
+            border: 2px ridge black;
+            transition: all 0.3s ease;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+            /* transition: transform 0.3s; Add transition for smooth animation */
+        }
+        .team img:hover {
+            transform: scale(1.1);
+            /* animation: pulse 1s infinite alternate; Apply the pulse animation on hover */
+        }
+    
+        /* @keyframes pulse {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(1.1);
+        }
+    } */
+        .team h3 {
+            color: #000;
+            font-size: 18px;
+            margin-top: 10px;
+            background: linear-gradient(to right, black, black, red, black, black);
+            background-size: 500% auto;
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            animation: colorSwipe 1s linear;
+        }
+        .team p {
+            color: #4e4e4e;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    
+        .ticker-wrapper {
+            /* position: absolute; */
+            top: 0%;
+            left: 0;
+            /* width: 1250px; */
+            max-width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            background-color: rgba(255, 255, 255, 0.733);
+            margin:auto;
+            text-align: center;
+            /* animation: tickerMove 20s linear infinite; */
+        }
+       
+        .ticker-container {
+            display: inline-block;
+            vertical-align: top;
+            background-color: rgb(255, 255, 255);
+            color: rgb(66, 63, 63);
+            padding: 10px;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    
+        @keyframes tickerMove {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+    
+        .item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-right: 20px;
+        }
+    
+        .item img {
+            width: 50px;
+            height: 50px;
+        }
+    
+        .item .info {
+            margin-left: 10px;
+        }
+
+        .ticker {
+            padding: 20px 0px 0px 10px ;
+            margin: auto;
+        }
+
+        .home {
+            background-color: #fff;
+            padding: 25px;
+            margin-bottom: 20px;
+            /* width: 1400px; */
+            max-width: 100%;
+            margin: auto;
+            /* width: 90%; */
+            width: 990px;
+        }
+    
+        .container {
+          display: grid;
+          grid-template-columns: 60% 40%; /* Two columns, each taking up equal space */
+        }
+    
+        .left-div {
+          grid-column: 1; /* Place in the first column */
+          position: relative;
+          overflow: hidden; /* Ensure the image doesn't overflow */
+        }
+    
+        .left-div img {
+          width: 100%; /* Ensure the image takes up the entire width of the container */
+          height: 100%; /* Ensure the image takes up the entire height of the container */
+          object-fit: cover; /* Ensure the image fills the container while maintaining aspect ratio */
+      }
+    
+      .right-div {
+          grid-column: 2; /* Place in the second column */
+        }
+    
+        .title {
+          font-size: 36px; /* Set the font size for the title */
+          color: #141414;
+          font-family: 'Roboto', sans-serif;
+        }
+    
+
+        .news_images {
+            display: grid;
+            margin: auto;
+            width: 400px;
+            height: auto;
+        }
+
+        
+        /* Color wheel code */
+        /* @keyframes colorSwipe {
+            0% { color: red; }
+            25% { color: blue; }
+            50% { color: green; }
+            75% { color: orange; }
+            100% { color: red; }
+        }
+    
+        .swipe-text {
+            font-size: 36px;
+            font-weight: bold;
+            animation: colorSwipe 5s infinite;
+        } */
+    
+        /* Color Swipe */
+        @keyframes colorSwipe {
+            0% { background-position: 0 0; }
+            100% { background-position: 100% 0; }
+        }
+    
+        .swipe-text {
+            font-size: 36px;
+            font-weight: bold;
+            background: linear-gradient(to right, white, white, red, white, white);
+            background-size: 500% auto;
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            animation: colorSwipe 1s linear;
+            text-align: center; 
+            margin-left: 10px;  
+            margin-right: 10px;
+        }
+    
+        .swipe-text-home {
+            background: linear-gradient(to right, black, black, red, black, black);
+            background-size: 500% auto;
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            animation: colorSwipe 2s linear infinite;
+            text-align: center; 
+        }
+        .stats-leaders {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* 3 columns with equal width */
+            grid-gap: 10px; /* Gap between grid items */
+            background-color: #ffffff;
+            border-radius: 10px;
+        }
+    
+        .player-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* 3 columns with equal width */
+            grid-gap: 10px; /* Gap between grid items */
+            background-color: #ffffff;
+            border-radius: 10px;
+        }
+    
+        .player-container-list {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr); /* 3 columns with equal width */
+            grid-gap: 10px; /* Gap between grid items */
+            background-color: #ffffff;
+            border-radius: 10px;
+        }
+
+
+    
+        .button-charge {
+        background-color: black;
+        color: #fff;
+        border: red;
+        border-style: outset;
+        border-radius: 4px;
+        padding: 10px 20px;
+        transition: background-color 0.3s;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        gap: 10px;
+        }
+    
+        .button-charge:hover {
+        /* background-color: red;
+        color: white */
+        border-style: inset;
+        font-weight: bolder;
+        }
+    
+        .button-charge-team {
+        background-color: black;
+        color: #fff;
+        border: red;
+        border-style: outset;
+        border-radius: 4px;
+        padding: 10px 20px;
+        transition: background-color 0.3s;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 10px;
+        }
+    
+        .button-charge-team:hover {
+        /* background-color: black;
+        color: white; */
+        border-style: inset;
+        font-weight: bolder;
+        background-color: red;
+        border-color: black;
+        }
+    
+        .button-turtles {
+        background-color: black;
+        color: #fff;
+        border: green;
+        border-style: outset;
+        border-radius: 4px;
+        padding: 10px 20px;
+        transition: background-color 0.3s;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        gap: 10px;
+        }
+    
+        .button-turtles:hover {
+        background-color: green;
+        color: white;
+        border-style: inset;
+        font-weight: bolder;
+        }
+    
+        .button-turtles-team {
+        background-color: black;
+        color: #fff;
+        border: green;
+        border-style: outset;
+        border-radius: 4px;
+        padding: 10px 20px;
+        transition: background-color 0.3s;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 10px;
+        }
+    
+        .button-turtles-team:hover {
+        /* background-color: black;
+        color: white */
+        border-style: inset;
+        font-weight: bolder;
+        background-color: green;
+        border-color: black;
+        }
+    
+        .button-demons {
+        background-color: black;
+        color: #fff;
+        border: rgb(255, 77, 77);
+        border-style: outset;
+        border-radius: 4px;
+        padding: 10px 20px;
+        transition: background-color 0.3s;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        gap: 10px;
+        }
+    
+        .button-demons:hover {
+        background-color: rgb(255, 77, 77);
+        color: white;
+        border-style: inset;
+        font-weight: bolder;
+        border-color: black;
+        }
+    
+        .button-demons-team {
+        background-color: black;
+        color: #fff;
+        border: rgb(255, 77, 77);
+        border-style: outset;
+        border-radius: 4px;
+        padding: 10px 20px;
+        transition: background-color 0.3s;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 10px;
+        }
+    
+        .button-demons-team:hover {
+        /* background-color: whitesmoke; */
+        /* color: black; */
+        border-style: inset;
+        font-weight: bolder;
+        background-color: rgb(255, 77, 77);
+        border-color: black;
+        }
+    
+        .button-alg {
+        background-color: black;
+        color: #fff;
+        border: gray;
+        border-style: outset;
+        border-radius: 4px;
+        padding: 10px 20px;
+        transition: background-color 0.3s;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        gap: 10px;
+        }
+    
+        .button-alg:hover {
+        background-color: gray;
+        color: white;
+        border-style: inset;
+        font-weight: bolder;
+        border-color: black;
+        }
+    
+        .button-alg-team {
+        background-color: black;
+        color: #fff;
+        border: gray;
+        border-style: outset;
+        border-radius: 4px;
+        padding: 10px 20px;
+        transition: background-color 0.3s;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 10px;
+        }
+    
+        .button-alg-team:hover {
+        /* background-color: black;
+        color: white */
+        border-style: inset;
+        font-weight: bolder;
+        background-color: gray;
+        border-color: black;
+
+        }
+    
+        .button-leaders {
+        background-color: white;
+        color: black;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 20px;
+        transition: background-color 0.3s;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        gap: 10px;
+        border: 1px solid black;
+        }
+    
+    
+        .left-content {
+        justify-self: start; /* Align left */
+        }
+    
+        .right-content {
+        justify-self: end; /* Align right */
+        }
+    
+        .player-exp{
+            color: black;
+            align-items: left;
+            background: linear-gradient(to right, black, black, red, black, black);
+            background-size: 500% auto;
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            animation: colorSwipe 1s linear;
+            
+        }
+
+        .team-exp{
+            color: black;
+            display: flex;
+            align-items: left;
+            background: linear-gradient(to right, black, black, red, black, black);
+            background-size: 500% auto;
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            animation: colorSwipe 1s linear;
+            
+        }
+
+        .player-exp-turtles{
+            color: black;
+            align-items: left;
+            background: linear-gradient(to right, black, black, green, black, black);
+            background-size: 500% auto;
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            animation: colorSwipe 1s linear;
+            
+        }
+    
+        .news-exp-title{
+            color: black;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            background: linear-gradient(to right, black, black, red, black, black);
+            background-size: 500% auto;
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            animation: colorSwipe 1s linear;
+            text-align: center;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    
+    
+        .player-exp img {
+            width: 100px;
+            height: auto;
+            border-radius: 8px;
+            border-width: 4px;
+            border-style: ridge;
+        }
+        .team-exp img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .button-container-list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4px;
+        }
+    
+    .logo img {
+    width: 50px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the logo circular */
+    margin-right: 20px; /* Add spacing between logo and links */
+    }
+    
+    .links {
+    margin-left: auto; /* Push links to the right */
+    }
+    
+    .links a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    margin-left: 20px; /* Add spacing between links */
+    }
+    .links a:hover{
+    color: red;
+    }
+    
+    
+    .news-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+            grid-gap: 0px; /* Gap between grid items */
+            background-color: #ffffff;
+            border-radius: 10px;
+            text-align: left;
+            padding: 0px 14px;
+        }
+    
+        .news {
+            margin: auto;
+            max-width: 100%;
+            padding-top: 14px;
+
+            /* text-align: center; */
+        }
+        .news img {
+            display: block;
+            width: 166px;
+            height: auto;
+            border-radius: 1%;
+            border: 1px solid #000000;
+            transition: all 0.3s ease;
+            margin: auto;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+
+            /* transition: transform 0.3s; Add transition for smooth animation */
+        }
+        .news img:hover {
+            transform: scale(0.96);
+            border: solid 3px rgb(175, 8, 8);
+            margin-bottom: -10%;        /* counteracts the scale */
+            /* animation: pulse 1s infinite alternate; Apply the pulse animation on hover */
+        }
+        .record{
+            color: #000;
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 5px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        /* Stats Page */
+        .container_monte {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .links {
+            margin: auto; /* Push links to the right */
+        }
+            
+        .links a {
+        color: #fff; /* Link color */
+        text-decoration: none; /* Remove underline */
+        }
+        .links a:hover{
+        color: red;
+        }
+
+
+        footer .last-updated {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 0.8em; /* Adjust this value as needed */
+            color: #dfdfdf; /* Gray color */
+        }
+
+        /* Ensure the footer is 1000px wide and centered */
+        footer {
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            width: 1000px;
+            margin: 0 auto; 
+            justify-content: center;
+            padding: 20px; 
+            background-color: #222222; 
+            color: white; 
+            font-weight: bold;
+        }
+
+        footer .links {
+            text-align: center;
+            margin: auto;
+        }
+
+        footer .links a {
+            text-decoration: none; 
+            color: white;
+            margin: 0 10px; 
+            font-weight: bold; 
+        }
+
+        footer .links a:hover {
+            text-decoration: underline; 
+        }
+
+
+        footer .logo {
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            text-align: center;
+            font-size: 0.8em;
+            color: #dfdfdf;
+            margin-top: 20px;
+        }
+
+        .button-list-player {
+            background-color: white;
+            color: black;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            transition: background-color 0.3s;
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            align-items: center;
+            gap: 10px;
+            border: 0px solid black;
+            }
+.button-list-player:hover {
+background-color: rgba(128, 128, 128, 0.151);
+color: black
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.main-content {
+  max-width: 1040px;
+  width: 100%;
+}

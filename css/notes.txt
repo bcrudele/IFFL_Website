@@ -1,0 +1,7 @@
+- script.js -> last_updated()
+- adding an ID tag on goalies allows stats_uploader.py to differentiate between goalie stat updates
+- credentials.json hosts google sheets API key
+
+TODO:
+- js records for each team so they dont have to be updated everywhere
+- make a script to make scehedule ticker
