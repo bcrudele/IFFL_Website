@@ -1,5 +1,5 @@
 function lastedit() {
-    document.getElementById("last-updated-date").innerHTML = "July 25th, 2025 12:05am";
+    document.getElementById("last-updated-date").innerHTML = "August 20th, 2025 8:35pm";
 }
 
 // Function to initialize the view (only goalie or skater at a time)

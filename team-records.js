@@ -1,7 +1,7 @@
 // team-records.js
 const teamRecords = {
-    charge: "9 - 4 - 3",
-    assassins: "8 - 6 - 2",
-    demons: "10 - 5 - 1",
-    turtles: "5 - 9 - 2",
+    charge: "0 - 0 - 0",
+    assassins: "0 - 0 - 0",
+    demons: "0 - 0 - 0",
+    turtles: "0 - 0 - 0",
 };
