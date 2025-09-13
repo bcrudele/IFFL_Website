@@ -1,44 +1,45 @@
 <style>
     nav {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap; /* keep everything in one row */
         background-color: #141414;
         padding: 0.5rem 1rem;
-        text-align: center;
         font-family: 'Roboto', sans-serif;
         align-items: center;
         justify-content: center;
         gap: 0.5rem;
+        overflow-x: auto; /* fallback if too many items */
     }
 
     nav a {
         color: #d8d8d8;
         text-decoration: none;
-        padding: 1rem 1.2rem;
-        font-size: 1.1rem;
+        padding: 0.8rem 1rem;
+        font-size: clamp(0.7rem, 1vw, 1rem); /* dynamically scales */
         transition: all 0.3s ease;
-        flex-shrink: 0;
+        white-space: nowrap; /* prevents line breaks */
+        flex-shrink: 1; /* allow text to shrink if needed */
     }
 
     nav img {
-        width: 8vw; /* scales with screen */
-        max-width: 70px;
-        min-width: 40px;
+        width: 6vw;
+        max-width: 60px;
+        min-width: 35px;
         border-radius: 50%;
         overflow: hidden;
+        flex-shrink: 0;
     }
 
     nav a:hover {
         background-color: #555;
     }
-    
+
     .dropdown {
         position: relative;
-        font-family: 'Roboto', sans-serif;
     }
 
     .dropdown > a {
-        font-size: 1.1rem;
+        font-size: clamp(0.7rem, 1vw, 1rem);
     }
 
     .dropdown-content {
@@ -59,9 +60,9 @@
 
     .dropdown-content a {
         display: block;
-        padding: 0.8rem 1rem;
+        padding: 0.7rem 1rem;
         color: #d8d8d8;
-        font-size: 0.95rem;
+        font-size: clamp(0.65rem, 0.9vw, 0.9rem);
         transition: background 0.3s ease;
         white-space: nowrap;
     }
@@ -75,27 +76,11 @@
         opacity: 1;
         transform: translateY(0);
     }
-
-    /* Responsive adjustments */
-    @media (max-width: 768px) {
-        nav {
-            flex-direction: column;
-        }
-
-        nav a {
-            padding: 0.8rem;
-            font-size: 1rem;
-        }
-
-        nav img {
-            width: 12vw;
-        }
-    }
 </style>
 
 <nav>
     <img src="./images/football.png" alt="Logo">
-    <b class="swipe-text" style="color: white; font-size: 1.2rem;"><i>IFFL</i></b>
+    <b class="swipe-text" style="color: white; font-size: clamp(0.8rem, 1vw, 1.2rem);"><i>IFFL</i></b>
     <a href="index.html">Home</a>
     <a href="./pages/about.html">About</a>
     <a href="./pages/schedule.html">Schedule</a>
