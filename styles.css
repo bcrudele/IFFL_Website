@@ -902,7 +902,7 @@ margin-right: 20px; /* Add spacing between logo and links */
 
         .home {
             background-color: #fff;
-            padding: 25px;
+            padding: 0px;
             margin-bottom: 20px;
             /* width: 1400px; */
             max-width: 100%;
