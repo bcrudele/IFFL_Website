@@ -22,7 +22,89 @@
     <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
     <title>Illinois Flag Football League Homepage</title>
     <style>
-        
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+
+  .left-div, .right-div {
+    flex: 1;
+    min-width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .left-div img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .team {
+    flex: 1 1 200px;
+    max-width: 220px;
+    text-align: center;
+  }
+
+  .team img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 15px;
+    background: #141414;
+  }
+
+  footer img {
+    max-width: 50px;
+    height: auto;
+  }
+
+  /* Mobile */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+
+    .left-div, .right-div {
+      min-width: 100%;
+      padding: 5px;
+    }
+
+    .team {
+      max-width: 45%;
+    }
+  }
+
+  /* Extra small phones */
+  @media (max-width: 480px) {
+    .team {
+      max-width: 100%;
+    }
+  }
+
+
     </style>
 </head>
 <main>
