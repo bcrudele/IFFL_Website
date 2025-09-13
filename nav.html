@@ -1,24 +1,29 @@
 <style>
     nav {
         display: flex;
+        flex-wrap: wrap;
         background-color: #141414;
-        padding: 4px;
+        padding: 0.5rem 1rem;
         text-align: center;
         font-family: 'Roboto', sans-serif;
         align-items: center;
         justify-content: center;
+        gap: 0.5rem;
     }
+
     nav a {
         color: #d8d8d8;
         text-decoration: none;
-        padding: 30px 20px;
-        font-size: 20px;
+        padding: 1rem 1.2rem;
+        font-size: 1.1rem;
         transition: all 0.3s ease;
-        height: 50%;
+        flex-shrink: 0;
     }
 
     nav img {
-        width: 70px;
+        width: 8vw; /* scales with screen */
+        max-width: 70px;
+        min-width: 40px;
         border-radius: 50%;
         overflow: hidden;
     }
@@ -30,34 +35,35 @@
     .dropdown {
         position: relative;
         font-family: 'Roboto', sans-serif;
-        color: #d8d8d8;
-        text-decoration: none;
-        font-size: 20px;
-        transition: all 0.3s ease;
+    }
+
+    .dropdown > a {
+        font-size: 1.1rem;
     }
 
     .dropdown-content {
         display: none;
         position: absolute;
-        top: 40px;
+        top: 100%;
         left: 0;
         background-color: #141414;
-        border-radius: 8px;
-        min-width: 180px;
+        border-radius: 0.5rem;
+        min-width: 12rem;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
         overflow: hidden;
         opacity: 0;
-        transform: translateY(100px);
+        transform: translateY(10px);
         transition: all 0.3s ease;
+        z-index: 100;
     }
 
     .dropdown-content a {
         display: block;
-        padding: 12px 15px;
+        padding: 0.8rem 1rem;
         color: #d8d8d8;
-        font-size: 15px;
-        border-radius: 0;
+        font-size: 0.95rem;
         transition: background 0.3s ease;
+        white-space: nowrap;
     }
 
     .dropdown-content a:hover {
@@ -69,11 +75,27 @@
         opacity: 1;
         transform: translateY(0);
     }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        nav {
+            flex-direction: column;
+        }
+
+        nav a {
+            padding: 0.8rem;
+            font-size: 1rem;
+        }
+
+        nav img {
+            width: 12vw;
+        }
+    }
 </style>
 
 <nav>
     <img src="./images/football.png" alt="Logo">
-    <b class="swipe-text" style="color: white; font-size: 20px;"><i>IFFL</i></b>
+    <b class="swipe-text" style="color: white; font-size: 1.2rem;"><i>IFFL</i></b>
     <a href="index.html">Home</a>
     <a href="./pages/about.html">About</a>
     <a href="./pages/schedule.html">Schedule</a>
